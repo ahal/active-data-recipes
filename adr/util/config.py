@@ -3,11 +3,13 @@ import yaml
 
 class Configuration(object):
     __slots__ = [
-        "url",
-        "verbose",
         "debug",
         "debug_url",
-        "fmt"
+        "fmt",
+        "list",
+        "recipe",
+        "url",
+        "verbose",
     ]
 
     def __init__(self, yml_file=None):
